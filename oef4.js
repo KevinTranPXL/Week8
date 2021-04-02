@@ -11,9 +11,8 @@ else {
 }
 
 function startmetHallo() {
-    let textEersteLetter =  text.charAt(0)
-    let textLowerCase = textEersteLetter.toLowerCase()
-    let textcombinatie = textLowerCase + text.substring(1)
+    let textEersteLetter =  text.charAt(0).toLowerCase()
+    let textcombinatie = textEersteLetter + text.substring(1)
 
     return "Hallo " +  textcombinatie ;
 
